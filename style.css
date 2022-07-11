@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.navbar__logo {
+    justify-content: center;
+    font-size:24px;
+    list-style: none;
+    display: flex;
+}
+.navbar__logo li{
+    flex-direction: column;
+
+}
+
+.navbar__menu {
+    font-size: 18px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar__menu li {
+    padding: 8px 12px;
+
+}
+
+.navbar__icons{
+    padding: 12px 12px;
+    list-style: none;
+}
+
+.multiName{
+    color: #C62917;
+    font-size: 12px;
+}
